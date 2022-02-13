@@ -72,7 +72,6 @@ export function Register(){
 
     function handleOpenSelectCategoryModal(){
         setCategoryModalOpen(true);
-        
     }
 
     function handleCloseSelectCategoryModal(){
