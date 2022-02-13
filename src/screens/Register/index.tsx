@@ -44,6 +44,7 @@ const schema = Yup.object().shape({
 })
 
 export function Register(){
+    // const navigation = useNavigation();
     
     const [transactionType, setTransactionType] = useState('');
     const [categoryModalOpen, setCategoryModalOpen] = useState(false);
@@ -55,7 +56,6 @@ export function Register(){
         name: 'Categoria'
     });
 
-    const navigation = useNavigation();
 
     const {
         control,
@@ -117,7 +117,7 @@ export function Register(){
                 name: 'Categoria'
             });
 
-            navigation.navigate('Listagem');
+            // navigation.navigate('Listagem');
 
        } catch (error) {
             console.log(error);
@@ -169,6 +169,7 @@ export function Register(){
                         </TransactionTypes>
 
                         <CategorySelectButton 
+                            testID='button-category' 
                             title={category.name}
                             onPress={handleOpenSelectCategoryModal} 
                         />
@@ -180,7 +181,7 @@ export function Register(){
                     />
                 </Form>
 
-                <Modal visible={categoryModalOpen} animationType="slide">
+                <Modal testID='modal-category' visible={categoryModalOpen} animationType="slide">
                     <CategorySelect 
                         category={category}
                         setCategory={setCategory}
