@@ -6,10 +6,10 @@
 <br>
 
 <h1 align="center">
-  <img alt="gofinaces" title="gofinances" src="assets/img/img1.jpg" width=230/>
-  <img alt="gofinaces" title="gofinances" src="assets/img/img2.jpg" width=230/>
-  <img alt="gofinaces" title="gofinances" src="assets/img/img3.jpg" width=230/>
-  <img alt="gofinaces" title="gofinances" src="assets/img/img4.jpg" width=230/>
+  <img alt="gofinaces" title="gofinances" src="src/assets/imgScrens/img1.jpg" width=230/>
+  <img alt="gofinaces" title="gofinances" src="src/assets/imgScrens/img2.jpg" width=230/>
+  <img alt="gofinaces" title="gofinances" src="src/assets/imgScrens/img3.jpg" width=230/>
+  <img alt="gofinaces" title="gofinances" src="src/assets/imgScrens/img4.jpg" width=230/>
 </h1>
 
 ## 💻 Projeto
